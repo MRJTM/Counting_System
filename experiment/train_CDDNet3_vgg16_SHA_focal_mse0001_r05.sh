@@ -1,0 +1,22 @@
+python train.py \
+--model_save_name CDDNet3_vgg16_SHA_focal_mse0001_r05_test \
+--pretrain_model_name CDDNet3_vgg16_SHA_focal_mse0001_r05_test \
+--data_dir ./data/SHA \
+--train_from_scratch \
+--model_name cddnet3 \
+--backbone vgg16_bn \
+--dataset_name SHA \
+--train_split_ratio 1 \
+--val_split_ratio 1 \
+--lr 5e-4 \
+--lr_step 90,120 \
+--batch_size 8 \
+--num_epochs 200 \
+--lr_step 150 \
+--val_interval 1 \
+--num_workers 10 \
+--test_topk=3000 \
+--log_interval 10 \
+--img_size 512 \
+--hmap_loss_names mse,focal \
+--radius_ratio 0.5

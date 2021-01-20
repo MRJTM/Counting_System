@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/backgrounds">
+        <file>images/Density.png</file>
+        <file>images/Detection.png</file>
+        <file>images/Input.png</file>
+        <file>images/result.png</file>
+        <file>images/ScaleMap.png</file>
+    </qresource>
+</RCC>

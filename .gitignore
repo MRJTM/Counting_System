@@ -1,0 +1,6 @@
+__pycache__
+.idea
+build
+dist
+trained_models
+*.spec
