@@ -17,7 +17,7 @@ others:
 cmake,numpy,scipy,matplotlib,tqdm
 
 #### Development Tools
-If you just want to use the software, just download a .exe from Assets. 
+If you just want to use the software, just download a .exe from [here](https://github.com/MRJTM/Counting_System/releases)
 <br>
 If you want to change the UI Interface, you need to install **QT==5.12**, and use the **QT-Creator** to design the UI.
 
@@ -79,7 +79,7 @@ You have two ways to run the software:
 python main.py
 ```
 #### 2.run from .exe excutable file
-You can directly use the compiled .exe, which can be downloaded from Assets of this project.
+You can directly use the compiled .exe, which can be downloaded from [Assets](https://github.com/MRJTM/Counting_System/releases) of this project.
 <br>
 Or you can compile a .exe from the source code by yourself.
 
