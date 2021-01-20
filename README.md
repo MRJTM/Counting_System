@@ -2,7 +2,7 @@
 ## Introduction
 This is a software used for image level crowd counting and video level flow counting.
 <br>
-<img src="images/demo.gif" alt="demo video" width = "640" height = "480"/>
+<img src="https://github.com/MRJTM/Counting_System/tree/main/images/demo.gif" alt="demo video" width = "640" height = "480"/>
 
 ## Requirements Before Running
 #### python packages
@@ -67,7 +67,7 @@ ln -s your_path/SHA data/SHA
 #### Now, your dataset is ready!!!
 Like the following structure.
 
-<img src="images/folder_names.png" width = "300" height = "200" alt="Prepared Data" align=center />
+<img src="https://github.com/MRJTM/Counting_System/tree/main/images/folder_names.png" width = "300" height = "200" alt="Prepared Data" align=center />
 
 ## How to Training Model
 
@@ -90,7 +90,7 @@ Then you will get a main.exe at the dist folder.You should put the folder "image
 into the dist folder to be with the main.exe, like the following image. Double click the exe, ignore the 
 warning showed up, it could take several seconds before the start GUI shows.
 
-<img src="images/folder_names1.png" width = "300" height = "200" alt="exe" align=center />
+<img src="https://github.com/MRJTM/Counting_System/tree/main/images/folder_names1.png" width = "300" height = "200" alt="exe" align=center />
 
 ## ToDo
 - [ ] train a light-weight model
